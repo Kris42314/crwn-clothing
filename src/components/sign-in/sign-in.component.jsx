@@ -14,11 +14,11 @@ class SignIn extends React.Component {
         password: ''
     }
 }
-handleSubmit = event => {
-    event.preventDefault();
+// handleSubmit = event => {
+//     event.preventDefault();
 
-    this.setState({email:'', password:''})
-}
+//     this.setState({email:'', password:''})
+// }
 
 handleChange= event=>{
     const {value,name}= event.target;
@@ -44,13 +44,14 @@ render() {
             name="password" 
             type="password"
             handleChange={this.handleChange}
-            value={this.state.email} 
+            value={this.state.password} 
             label="Password"
             required />
 
             
 
             <CustomButton type="submit"> Sign in</CustomButton> 
+          
            
 
         </form>

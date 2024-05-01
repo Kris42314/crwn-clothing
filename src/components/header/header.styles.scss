@@ -10,7 +10,19 @@
       width: 70px;
       padding: 25px;
     }
-  
+    .searchbar{
+        height: 100%;
+        width: 100%;
+        padding: 35px 45px ;
+
+        
+    }
+    .button{
+        padding: 5px 10px ;
+        background: gray;
+        border-radius: 15px;
+        border-style: none;
+    }
     .options {
       width: 50%;
       height: 100%;
